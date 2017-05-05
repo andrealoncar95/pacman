@@ -528,7 +528,7 @@ var GF = function(){
 				eat_pill.play();
 				waza.play();
                 for (var i = 0; i < numGhosts; i++){
-                    if(ghosts[i].state = 1){
+                    if(ghosts[i].state == 1){
 					ghosts[i].state = 2;
 					}
                 }
